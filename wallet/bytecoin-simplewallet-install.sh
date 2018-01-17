@@ -20,7 +20,7 @@ sudo cp simplewallet /usr/local/bin
 echo "***"
 echo "***"
 echo "bytecoind is about to start and begin importing the blockchain, and will finish it off with a sync"
-echo "once you see  "SYNCHRONIZED OK" (likely in green as an INFO alert) you may start simplewallet"
+echo "once you see \"SYNCHRONIZED OK\" (likely in green as an INFO alert) you may start simplewallet"
 echo "***"
 echo "***"
 
