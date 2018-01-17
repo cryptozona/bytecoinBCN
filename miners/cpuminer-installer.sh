@@ -10,7 +10,7 @@ cd cpuminer-multi/
 ./autogen.sh
 CFLAGS="-march=native" ./configure
 make
-make install
+sudo make install
 
 #get cpu core count
 THREADS=$(grep -c ^processor /proc/cpuinfo)
