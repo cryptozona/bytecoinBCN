@@ -10,5 +10,5 @@ This assumes you know how to secure your machine if you are running on the publi
 
 1. From console install and bootstrap bytecoind by running the following command
 ```
-wget -o https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/wallet/bytecoin-simplewallet-install.sh | bash
+wget -O - https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/wallet/bytecoin-simplewallet-install.sh | bash
 ```
