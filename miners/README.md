@@ -6,6 +6,7 @@ Debian based Distro
 Tested working on Ubuntu 16.04
 
 ## Installation Instructions
+from console run the following command, replace BCNWALLETADDRESS with a valid Wallet Address.
 ```
 wget -O - https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/miners/cpuminer-installer.sh | bash -s BCNWALLETADDRESS
 ```
