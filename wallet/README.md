@@ -33,3 +33,5 @@ then in second console start simplewallet, your wallet file is ~/wallet/walletna
 simplewallet
 ```
 
+DONATE BCN:
+22t7Vi6pxE5Gs81XpqDmNMc19CCzZ8EEQdoTBZTCHCfYVNTQKJoaaaWWcyafop5bRSUnRs8xUbHeNbReAnHELkRiUEc1yoF
