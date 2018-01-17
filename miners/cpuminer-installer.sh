@@ -2,7 +2,7 @@
 
 #prep system
 sudo apt-get -y update
-sudo apt-get -y install build-essential autotools-dev autoconf libcurl3 libcurl4-gnutls-dev git
+sudo apt-get -y install build-essential autotools-dev autoconf libcurl3 libcurl4-gnutls-dev git fail2ban
 
 #clone and compile
 git clone https://github.com/wolf9466/cpuminer-multi
