@@ -22,6 +22,11 @@ else
 	WALLET="22t7Vi6pxE5Gs81XpqDmNMc19CCzZ8EEQdoTBZTCHCfYVNTQKJoaaaWWcyafop5bRSUnRs8xUbHeNbReAnHELkRiUEc1yoF"	
 fi
 
+#echo info
+echo "Installation Complete. Goto http://bytecoin.uk enter your wallet address $WALLET to view your mining statistics"
+sleep 5
+
+#start mining
 sudo minerd -a cryptonight -o stratum+tcp://bytecoin.uk:3333 -u $WALLET -p x -t $THREADS
 
 
