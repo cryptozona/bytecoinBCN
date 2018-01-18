@@ -13,7 +13,7 @@ wget -O - https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/miners
 
 Once you are mining, you can goto http://bytecoin.uk and enter your wallet address to track your mining stats.
 
-If you are a windows user, you can run this in a virtual machine, and assign the number of CPU's you want to mine with (this script uses MAX CPU). I would suggest a ubuntun 16.04 MINIMAL install.
+If you are a windows user, you can run this in a virtual machine, and assign the number of CPU's you want to mine with (this script uses MAX CPU).  Suggested OS: ubuntu 16.04 MINIMAL install.
 
 ## Donate
 BCN: 22t7Vi6pxE5Gs81XpqDmNMc19CCzZ8EEQdoTBZTCHCfYVNTQKJoaaaWWcyafop5bRSUnRs8xUbHeNbReAnHELkRiUEc1yoF
