@@ -23,4 +23,13 @@ else
 	WALLET="22t7Vi6pxE5Gs81XpqDmNMc19CCzZ8EEQdoTBZTCHCfYVNTQKJoaaaWWcyafop5bRSUnRs8xUbHeNbReAnHELkRiUEc1yoF"	
 fi
 
+#pull Dockerfile
+wget https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/dockerversion/miners/Dockerfile
+
+#update Dockerfile for WALLETID
+sed -i 's/WALLETID/$WALLET/g' Dockerfile
+
+#build Docker
+docker build -t "bytecoincpuminer"
+docker run -d --restart always --name bytecoincpuminer bytecoincpuminer
 
