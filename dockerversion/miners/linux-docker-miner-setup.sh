@@ -30,6 +30,6 @@ wget https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/dockerversi
 sed -i 's/WALLETID/$WALLET/g' Dockerfile
 
 #build Docker
-docker build -t "bytecoincpuminer"
+docker build -t "bytecoincpuminer" .
 docker run -d --restart always --name bytecoincpuminer bytecoincpuminer
 
