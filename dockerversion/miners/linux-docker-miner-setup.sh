@@ -27,7 +27,7 @@ fi
 wget https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/dockerversion/miners/Dockerfile
 
 #update Dockerfile for WALLETID
-sed -i 's/WALLETID/$WALLET/g' Dockerfile
+sed -i "s/WALLETID/$WALLET/g" "Dockerfile"
 
 #build Docker
 docker build -t "bytecoincpuminer" .
