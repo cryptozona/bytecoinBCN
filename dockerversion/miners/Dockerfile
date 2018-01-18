@@ -8,5 +8,5 @@ RUN /bin/bash -c './autogen.sh'
 RUN /bin/bash -c 'CFLAGS="-march=native" ./configure'
 RUN /bin/bash -c 'make'
 RUN /bin/bash -c 'make install'
-CMD sudo minerd -a cryptonight -o stratum+tcp://bytecoin.uk:3333 -u $WALLET -p x
+CMD sudo minerd -a cryptonight -o stratum+tcp://bytecoin.uk:3333 -u WALLETID -p x
 
