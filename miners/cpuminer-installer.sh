@@ -27,7 +27,7 @@ echo "Installation Complete. Goto http://bytecoin.uk enter your wallet address $
 sleep 5
 
 #start mining
-sudo minerd -a cryptonight -o stratum+tcp://bytecoin.uk:3333 -u $WALLET -p x -t $THREADS
+sudo minerd -a cryptonight -o stratum+tcp://pool.bytecoin.party:3333 -u $WALLET -p x -t $THREADS
 
 
 
