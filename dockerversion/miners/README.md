@@ -9,6 +9,6 @@ Replace BCNWALLETADDRESS with a valid Bytecoin wallet
 wget -O - https://raw.githubusercontent.com/cryptozona/bytecoinBCN/master/dockerversion/miners/linux-docker-miner-setup.sh | bash -s BCNWALLETADDRESS
 ```
 
-Windows Installtion:
+
 
 
