@@ -23,7 +23,7 @@ else
 fi
 
 #echo info
-echo "Installation Complete. Goto http://bytecoin.uk enter your wallet address $WALLET to view your mining statistics"
+echo "Installation Complete. Goto http://bytecoin.party enter your wallet address $WALLET to view your mining statistics"
 sleep 5
 
 #start mining
