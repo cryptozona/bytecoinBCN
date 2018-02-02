@@ -1,5 +1,5 @@
 # Linux Auto Installer cpuminer-multi
-Installs cpuminer-multi, detects number of CPU's,  takes your wallet address as input and starts mining on stratum+tcp://bytecoin.party:3333
+Installs cpuminer-multi, detects number of CPU's,  takes your wallet address as input and starts mining on stratum+tcp://pool.bytecoin.party:3333
 
 ## System Requirements:
 Debian based Distro
